@@ -6,7 +6,8 @@ export default function PeopleDetails() {
     const  names = useParams()
     console.log('id ', names);
     console.log('idType ', typeof names);
-    console.log('namesType ', typeof names); 
+    
+    console.log("jsdetail branch add ", names);
 
     const [apiData, setApiData] = useState({});
     const [peopleList, setPeopleList] = useState([]);
